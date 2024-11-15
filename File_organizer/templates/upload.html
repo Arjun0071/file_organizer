@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Upload</title>
+</head>
+<body>
+    <h1>Upload a File</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required><br>
+        <label for="file_type">File Type:</label>
+        <select name="file_type">
+            <option value="image">Image</option>
+            <option value="video">Video</option>
+            <option value="document">Document</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
