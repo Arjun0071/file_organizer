@@ -35,7 +35,7 @@ python3 file_name.py
 6. Access the Application
 Open the EC2 instance's public IP in your browser at port 5000:
 
-http://<ec2-public-ip>:5000  
+http://<ec2-private-ip>:5000  
 7. File Management in the Application
 Upload files via the UI.
 The application processes the files and stores them in specific S3 bucket folders based on file type.
